@@ -63,6 +63,7 @@
 .featured-photo {
   display: flex;
   justify-content: center;
+  text-align: center;
   gap: 40px;
 }
 
@@ -76,15 +77,98 @@
 .featured-two {
   width: 110px;
   height: 130px;
+  margin-top: 10px;
+  background-color: lightgray 50%;
+  ;
+
 }
 
 .featured-three {
   width: 110px;
   height: 130px;
+  background-color: lightgray 50%;
 }
 
-*/
+.tree {
+  text-align: center;
+  font-size: 8px;
+  text-decoration: underline;
+}
+
+/*----banner footer section----*/
+.banner-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 30%;
+
+  gap: 40px;
+  background-color: rgba(39, 39, 39, 0.05);
+  width: max-content;
+
+}
+
+
+.local-pic {
+  margin-top: 5px;
+  padding: 2px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.ban-foot {
+  text-align: center;
+  font-size: 6px;
+}
+
 /*   first container fished here */
+
+
+.hot-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15 0px;
+  background-color: rgba(229, 84, 115, 0.10);
+}
+
+.hot-text {
+  margin-: 5px 20px 5px 30px;
+  padding-left: 20px;
+}
+
+
+.hot-header {
+  font-size: 25px;
+  font-weight: 20px;
+  color: black;
+}
+
+.hot-pgraph {
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.hot-btn {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.second-image {
+  width: 200px;
+}
+
+
 /*  second contsiner fished here */
 /*  third contsiner fished here */
 /*  furth contsiner fished here */
