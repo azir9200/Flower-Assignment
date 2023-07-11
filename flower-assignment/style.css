@@ -7,20 +7,21 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 15 0px;
+  height: 500px;
   background-color: rgba(229, 84, 115, 0.10);
 }
 
+
 .banner-text {
-  margin-: 5px 20px 5px 30px;
-  padding-left: 20px;
+  width: 300px;
+  align-items: center;
 }
 
 
 .banner-header {
   font-size: 25px;
   font-weight: 20px;
-  color: black;
+  color: ;
 }
 
 .banner-pgraph {
@@ -38,16 +39,20 @@
   border-radius: 5px;
 }
 
-.first-image {
-  width: 200px;
+*/ .first-image {
+  width: 300px;
+  margin-bottom: 0;
+  display: block;
+  height: 50vh;
 }
 
-/*  banner section fished here */
+/*  main-- section one start here */
 
 
 .featured-container {
   width: 80%;
   margin: auto;
+  position: relative;
 }
 
 
@@ -100,7 +105,7 @@
   text-decoration: underline;
 }
 
-/*----banner footer section----*/
+/*----three small icons start here----*/
 .banner-footer {
   display: flex;
   justify-content: center;
@@ -131,7 +136,7 @@
   font-size: 6px;
 }
 
-/*   first container fished here */
+/*   main--section two start here */
 
 
 .hot-container {
@@ -143,7 +148,7 @@
 }
 
 .hot-text {
-  margin-: 5px 20px 5px 30px;
+  margin-: 5px 5px 30px;
   padding-left: 20px;
   align-items: center;
 }
@@ -171,8 +176,7 @@
 
 
 .hot-btn {
-
-  color: white;
+  20px color: white;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -185,7 +189,7 @@
 }
 
 
-/*---Instagram Section start here----*/
+/*---main-- Section Three start here----*/
 
 /*
 .insta-container {
@@ -207,8 +211,8 @@
 
 
 .insta-container {
-  height: 250px;
   height: 300px;
+  width: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -234,23 +238,29 @@
 
 .insta-photo {
   display: flex;
+  height: 250px;
+  width: 1500px;
   justify-content: center;
   text-align: center;
   gap: 5px;
+  margin: 40px;
 
 }
 
-/*  Last contsiner start here */
+/*  main --section four start here */
 
 .last-container {
-  height: 300px;
-  background-image: url(../images/Rectangle\ 9.png);
+  height: 250px;
+  width: 1000px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  margin: 30px;
-  padding-right: 60px;
+  margin-left: 200px;
+  background-image: url(../images/Rectangle\ 9.png);
+  background-size: cover;
+
+
 }
 
 .last-info {
@@ -263,28 +273,67 @@
   margin-bottom: 20px;
 }
 
+.email-me {
+  text-align: left;
+}
+
+#email {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 210px;
+
+}
+
 .subscribe {
-  background-color: #f99248;
-  border-radius: 15px;
+  padding: 12px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
 
+
+
+
+/*  footer start here */
 
 .footer {
   text-align: center;
   color: white;
   background-color: black;
-  width: 400px;
-  height: 300px;
+  width: 100%;
+  height: 120px;
+  margin: 30px;
+  padding: 80px 50px;
 
 }
 
-/*  footer start  here */
+.primary {
+  color: hsla(343, 57%, 54%, 0.965);
+}
 
-.footer {
+.footer-head {
+  margin-bottom: 10px;
+  margin-top: 12px;
+}
+
+
+.foot-body {
+  font-size: 12px;
+  margin-bottom: 14px;
+  color: rgba(255, 255, 255, 0.70);
   text-align: center;
-  color: white;
-  background-color: black;
-  width: 400px;
-  height: 300px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-bottom {
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 
 }
