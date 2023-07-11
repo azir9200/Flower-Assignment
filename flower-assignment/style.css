@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .banner-container {
   display: flex;
   justify-content: space-around;
@@ -140,35 +145,83 @@
 .hot-text {
   margin-: 5px 20px 5px 30px;
   padding-left: 20px;
+  align-items: center;
 }
 
 
 .hot-header {
   font-size: 25px;
   font-weight: 20px;
+  text-align: center;
   color: black;
 }
 
 .hot-pgraph {
-  font-size: 14px;
+  font-size: 10px;
+  text-align: center;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 15pxpx;
   color: black;
 }
 
+.pink-button {
+  padding-left: 50px;
+  margin-left: 40px;
+}
+
+
 .hot-btn {
-  padding: 10px 20px;
-  background-color: red;
+
   color: white;
   border: none;
   border-radius: 5px;
+  padding: 10px 20px;
+  background-color: chocolate;
+
 }
 
 .second-image {
   width: 200px;
 }
 
+.insta-photo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+  padding: 20px;
+}
 
 /*  second contsiner fished here */
+
+.insta-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.insta-para {
+  text-align: center;
+  font-size: 12px;
+}
+
+.insta-photo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+
+}
+
+.group-c {
+  display: flex;
+  justify-content: space-around;
+  height: 160px;
+}
+
 /*  third contsiner fished here */
+
+
+
 /*  furth contsiner fished here */
